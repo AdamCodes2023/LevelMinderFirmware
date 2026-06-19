@@ -1,0 +1,61 @@
+{
+ "categoryString": "EXTENSION",
+ "dateBuilt": "2020-10-09T16:46:13+0530",
+ "nonVisible": "true",
+ "iconName": "https://drive.google.com/uc?export=view&id=1kagAFBfLfBe_XF4s9_4KKkTG1KFbVzqa",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "CheckForUpdate",
+   "description": "Checks for the availability of new version of this app.",
+   "params": [
+    {
+     "name": "sheetId",
+     "type": "text"
+    },
+    {
+     "name": "sheetName",
+     "type": "text"
+    }
+   ]
+  },
+  {
+   "deprecated": "false",
+   "name": "CustomizeUpdateDialog",
+   "description": "Customizes Update Dialog even in your favourite language...",
+   "params": [
+    {
+     "name": "message",
+     "type": "text"
+    },
+    {
+     "name": "positiveButtonText",
+     "type": "text"
+    },
+    {
+     "name": "negativeButtonText",
+     "type": "text"
+    }
+   ]
+  }
+ ],
+ "blockProperties": [],
+ "helpUrl": "https://community.kodular.io/t/update-my-app-extension-useful-to-app-builders-to-update-their-distributed-apps/72417",
+ "type": "io.UpdateMyApp.UpdateMyApp",
+ "androidMinSdk": 7,
+ "version": "1",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "UpdateMyApp",
+ "helpString": "Update My App extension<br><br><a href='https://drive.google.com/file/d/1SVwbBSXEgN7GaFsyIk7p2xFOJCUm_FiM/view?usp=sharing' target='pramabTAB'>Download<\/a>&emsp;&emsp;<a href='https://community.kodular.io/t/update-my-app-extension-useful-to-app-builders-to-update-their-distributed-apps/72417' target='pramanTAB'>How to use ?<\/a><br><br>It is created by Hema Srinivas, India.",
+ "properties": [],
+ "events": [{
+  "deprecated": "false",
+  "name": "AfterCheckingForUpdate",
+  "description": "After checking for the availability of new version of this app...",
+  "params": [{
+   "name": "response",
+   "type": "text"
+  }]
+ }]
+}
