@@ -50,9 +50,9 @@ def flash_firmware(port, bin_path):
         esptool_args = [
             "--chip", "esp32s3",
             "--port", port,
-            "--baud", "460800",
+            "--baud", "921600",
             "write_flash", "-z",
-            "0x10000", bin_path
+            "0x00010000", bin_path
         ]
         print(f"Running esptool with args: {esptool_args}")
         esptool.main(esptool_args)
