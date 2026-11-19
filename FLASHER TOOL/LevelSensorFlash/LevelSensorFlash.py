@@ -52,6 +52,9 @@ def flash_firmware(port, bin_path):
             "--port", port,
             "--baud", "921600",
             "write_flash", "-z",
+            "--flash_mode", "dio",
+            "--flash_freq", "80m",
+            "--flash_size", "detect",
             "0x00010000", bin_path
         ]
         print(f"Running esptool with args: {esptool_args}")
